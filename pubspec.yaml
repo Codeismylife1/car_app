@@ -1,0 +1,54 @@
+name: car_dealer
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+  - assets/image.png
+  - assets/car1_black.png
+  - assets/car1_white.png
+  - assets/car2_black.png
+  - assets/car2_white.png
+  - assets/car3_black.png
+  - assets/car3_white.png
+  - assets/car4_black.png
+  - assets/car4_white.png
+  - assets/color1.png
+  - assets/color2.png
+  - assets/color3.png
+  - assets/color4.png
+  - assets/color5.png
+  - assets/color6.png
+  - assets/background_right.png
+  - assets/background_left.png
+  - assets/carlist1.png
+  - assets/carlist2.png
+  - assets/carlist3.png
+  - assets/carlist4.png
+  - assets/phone.png
+
+fonts:
+  - family: AlegreyaSansSC
+    fonts:
+    - asset: fonts/AlegreyaSansSC-Regular.ttf
